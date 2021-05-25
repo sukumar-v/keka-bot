@@ -35,7 +35,7 @@ if __name__ == "__main__":
     config["run"]["headless"] = True if args.headless else config["run"]["headless"]
     config["run"]["silent"] = True if args.silent else config["run"]["silent"]
 
-    seconds_to_delay = random.randint(0, config["run"]["delay"])
+    seconds_to_delay = random.randint(0, config["run"]["max_delay"])
 
     if not config["run"]["silent"]:
         print(f"starting in {seconds_to_delay} seconds...")
