@@ -1,8 +1,8 @@
 # Keka Bot
 
-A simple bot to clock in and out of Keka. Made using Selenium.
+A simple bot to clock in and out of Keka, an attendence management system. Powered by Selenium.
 
-# Getting Started
+## Getting Started
 
 1. Install firefox browser
 2. Install geckodriver
@@ -20,7 +20,7 @@ A simple bot to clock in and out of Keka. Made using Selenium.
    ```
 
 
-# Usage
+## Usage
 
 ### Clock in
 ```python
@@ -32,12 +32,12 @@ python start_keka_bot.py --clock_in
 python start_keka_bot.py --clock_out
 ```
 
-# Additional Arguments
+## Additional Arguments
 
 - Headless mode<br>
   `-hl`, `--headless` - use headless browser mode
 
-# Run as CRON job
+## Run as CRON job
 
 1. open crontab config
    ```bash
