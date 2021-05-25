@@ -32,8 +32,8 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     # Set argparse configs
-    config["run"]["headless"] = args.headless
-    config["run"]["silent"] = args.silent
+    config["run"]["headless"] = True if args.headless else config["run"]["headless"]
+    config["run"]["silent"] = True if args.silent else config["run"]["silent"]
 
     seconds_to_delay = random.randint(0, config["run"]["delay"])
 
