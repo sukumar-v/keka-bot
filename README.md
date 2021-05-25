@@ -55,3 +55,8 @@ python start_keka_bot.py --clock_out
    Please refer to [crontab(5)](https://man7.org/linux/man-pages/man5/crontab.5.html) and [crontab.guru](https://crontab.guru/#0_9_*_*_1-5) for more details on configuring CRON jobs<br>
 
    **Note:** A random delay can be set by editing the value of `max_delay` in `configs/config.py`. This will ensure that the bots starts at a different time everyday.
+
+
+## Disclaimer
+
+This repository is for academic purposes only, the use of this software falls under your responsibility.
