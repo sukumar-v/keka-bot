@@ -1,6 +1,6 @@
 # Keka Bot
 
-A simple bot to clock in and out of Keka, an attendence management system. Powered by Selenium.
+A simple bot to clock in and out of Keka attendence management system. Powered by Selenium.
 
 ## Getting Started
 
