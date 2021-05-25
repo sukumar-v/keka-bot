@@ -37,7 +37,7 @@ python start_keka_bot.py --clock_out
 - Headless mode<br>
   `-hl`, `--headless` - use headless browser mode
 
-- silent mode<br>
+- Silent mode<br>
   `-s`, `--silent` - Won't print any text to console
 
 ## Run as CRON job
